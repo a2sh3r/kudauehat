@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>кудауехатьиз.рф — НИКУДА</title>
+<meta name="description" content="Открыл сайт? Ну и куда ты собрался? Никуда.">
+<meta property="og:title" content="кудауехатьиз.рф">
+<meta property="og:description" content="НИКУДА.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://кудауехатьиз.рф/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='33' fill='%23ffffff'/%3E%3Crect y='33' width='100' height='34' fill='%230039a6'/%3E%3Crect y='67' width='100' height='33' fill='%23d52b1e'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;900&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+
+<!-- ===== RSYA / Яндекс.Реклама ===== -->
+<script src="https://yandex.ru/ads/system/context.js" async></script>
+
+<style>
+  :root{
+    --bg:#ffffff;
+    --ink:#0b0b0f;
+    --muted:#6b7280;
+    --blue:#0b53d8;
+    --red:#e0342a;
+    --stroke:rgba(0,0,0,.12);
+    --adw:160px;
+    --adgap:20px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;height:100%}
+  body{
+    height:100vh; overflow:hidden;
+    background:var(--bg); color:var(--ink);
+    font-family:'Manrope',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  /* ---------- боковые баннеры ---------- */
+  .ad{position:fixed; z-index:2; width:var(--adw)}
+  .ad-left{left:var(--adgap); top:50%; transform:translateY(-50%)}
+  .ad-right{right:var(--adgap); top:50%; transform:translateY(-50%)}
+
+  /* ---------- вертикальный каркас ---------- */
+  main{
+    position:relative; z-index:1;
+    height:100vh; display:flex; flex-direction:column;
+  }
+
+  header{
+    flex:0 0 auto;
+    display:flex; align-items:center; justify-content:space-between;
+    padding:22px 30px 12px;
+  }
+  .brand{
+    font-family:'Unbounded',sans-serif; font-weight:900; letter-spacing:-.02em;
+    font-size:clamp(13px,1.5vw,16px); display:flex; align-items:center; gap:11px;
+    text-decoration:none; color:var(--ink);
+  }
+  .flag-ru{
+    position:fixed; top:0; right:0; z-index:0;
+    width:132px; height:88px; overflow:hidden;
+    display:flex; flex-direction:column;
+  }
+  .flag-ru i{display:block; flex:1}
+  .flag-ru i:nth-child(1){background:#ffffff}
+  .flag-ru i:nth-child(2){background:#0039a6}
+  .flag-ru i:nth-child(3){background:#d52b1e}
+
+  /* ---------- горизонтальные баннеры ---------- */
+  .ad-h{flex:0 0 auto; display:flex; justify-content:center; padding:4px 30px}
+
+  .hero{
+    flex:1 1 auto; min-height:0;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; padding:0 24px;
+  }
+  .nowhere{
+    font-family:'Unbounded',sans-serif; font-weight:900;
+    font-size:calc((100vw - 400px) / 6.1);
+    line-height:.9; letter-spacing:-.055em; margin:0; white-space:nowrap;
+    color:var(--ink);
+  }
+  .sell{
+    margin:clamp(16px,3vw,30px) 0 0;
+    font-family:'Unbounded',sans-serif; font-weight:700;
+    font-size:clamp(14px,2.2vw,22px); letter-spacing:.02em;
+    color:var(--ink); text-transform:lowercase;
+  }
+  .sell span{border-bottom:3px solid var(--red); padding-bottom:2px}
+
+  footer{
+    flex:0 0 auto; padding:8px 30px 12px; color:var(--muted); font-size:12px;
+  }
+
+  /* ---------- планшет/мобайл ---------- */
+  @media (max-width:1150px){
+    .ad-left, .ad-right{display:none}
+    .nowhere{font-size:calc(87vw / 6.1)}
+  }
+  @media (max-width:640px){
+    header{padding:16px 18px 8px}
+    .ad-h{padding:4px 14px}
+    footer{display:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- Реклама: левый вертикальный баннер (160x600) -->
+<aside class="ad ad-left" aria-label="Реклама">
+  <!-- RSYA: замените R-A-XXXXXXX-3 на ID своего блока -->
+  <div id="yandex_rtb_R-A-XXXXXXX-3"></div>
+</aside>
+
+<!-- Реклама: правый вертикальный баннер (160x600) -->
+<aside class="ad ad-right" aria-label="Реклама">
+  <!-- RSYA: замените R-A-XXXXXXX-4 на ID своего блока -->
+  <div id="yandex_rtb_R-A-XXXXXXX-4"></div>
+</aside>
+
+<main>
+  <header>
+    <a class="brand" href="/">кудауехатьиз.рф</a>
+    <span class="flag-ru" title="Российская Федерация" aria-label="Флаг России"><i></i><i></i><i></i></span>
+  </header>
+
+  <!-- Реклама: верхний баннер -->
+  <div class="ad-h ad-top" aria-label="Реклама">
+    <!-- RSYA: замените R-A-XXXXXXX-1 на ID своего блока -->
+    <div id="yandex_rtb_R-A-XXXXXXX-1"></div>
+  </div>
+
+  <section class="hero">
+    <h1 class="nowhere">НИКУДА</h1>
+    <p class="sell">продам <span>домен</span></p>
+  </section>
+
+  <!-- Реклама: нижний баннер -->
+  <div class="ad-h ad-bottom" aria-label="Реклама">
+    <!-- RSYA: замените R-A-XXXXXXX-2 на ID своего блока -->
+    <div id="yandex_rtb_R-A-XXXXXXX-2"></div>
+  </div>
+
+  <footer>© <span id="year"></span> кудауехатьиз.рф — сделано с душой</footer>
+</main>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // ---- Инициализация блоков РСЯ ----
+  // Включите реальные ID блоков из кабинета РСЯ, уберите SPAN-заглушки
+  // и раскомментируйте render() ниже.
+  window.yaContextCb = window.yaContextCb || [];
+  /*
+  window.yaContextCb.push(function(){
+    Ya.Context.AdvManager.render({ renderTo: 'yandex_rtb_R-A-XXXXXXX-1', blockId: 'R-A-XXXXXXX-1' });
+    Ya.Context.AdvManager.render({ renderTo: 'yandex_rtb_R-A-XXXXXXX-2', blockId: 'R-A-XXXXXXX-2' });
+    Ya.Context.AdvManager.render({ renderTo: 'yandex_rtb_R-A-XXXXXXX-3', blockId: 'R-A-XXXXXXX-3' });
+    Ya.Context.AdvManager.render({ renderTo: 'yandex_rtb_R-A-XXXXXXX-4', blockId: 'R-A-XXXXXXX-4' });
+  });
+  */
+</script>
+</body>
+</html>
